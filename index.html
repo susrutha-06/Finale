@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form>
+Name: <input type="text"></input><br><br>
+Email: <input type="Email" ></input><br><br>
+<div>
+<h3>Gender:</h3>
+<input type="radio" name="gender" value="male">Male<br>
+<input type="radio"  name="gender" value="female">female<br>
+
+<input type="radio" name="gender" value="other">Other<br>
+</div>
+<div>
+<h3> Courses Interested:</h3>
+<input type="checkbox"  name="course" value="C">C<br>
+<input type="checkbox" name="course" value="Java">Java<br>
+<input type="checkbox"  name="course" value="Python">Python<br>
+<input type="checkbox"  name="course" value="HTML">HTML<br>
+</div>
+<form>
+<h3>Location</h3>
+<select name="location">
+<option value="Hyderabad">Hyderabad</option>
+<option value="Vizag">Vizag</option>
+<option value="Vijayawada">Vijayawada</option>
+</select>
+</form>
+<h3>About Yourself</h3>
+<textarea name="comments"  rows="4" cols="20"></textarea>
+<div class="submit-button">
+<input type="submit" value="Register">
+</div>
+<a href="login.html">Already registered? Click here to login</a>
+</form>
+</body>
+</html>
